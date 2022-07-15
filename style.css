@@ -1,0 +1,195 @@
+.d-f{
+    display: flex;
+    align-items: center;
+    margin-right: 900px;
+    justify-content: space-around;
+}
+.total-div {
+    display: flex;
+    
+}
+#btn-clear {
+    border: 1px solid black;
+    background-color: aqua;
+    color: red;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+#btn-clear:hover {
+    background-color: coral;
+    color: black;
+}
+#total{
+  margin-top:28px;  
+  margin-left:20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.item-box {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+.name-of-sneakers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.306);
+    height: 40px;
+    width: 300px;
+}
+
+.add-btn-cart {
+    background-color: white;
+    border: 1px solid gray;
+    color: rgb(54, 85, 157);
+    padding: 10px 80px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.items-with-sneakers {
+    margin-left: 100px;
+}
+
+.sneakers {
+    display: flex;
+}
+
+.add-btn-cart:hover {
+    background-color: rgb(41, 129, 230);
+    color: white;   
+}
+
+
+.title-cart {
+    background-color: rgba(128, 128, 128, 0.126);
+    width: 1000px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.cart {
+    padding: 10px 0px;
+    margin-left: 100px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    height:300px
+}
+
+
+.cart-nike {
+    display: flex;
+    align-items: center;
+    width: 950px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+
+}
+.cart-adidas{
+    display: flex;
+    align-items: center;
+    width: 950px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+.cart-puma {
+    display: flex;
+    align-items: center;
+    width: 950px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+
+.plus-amount {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    border: none;
+}
+.plus-amount:hover {
+    border: 1px solid black;
+    background-color: #9ACD32;
+
+}
+.minus-amount {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    border: none;
+}
+.minus-amount:hover {
+    border: 1px solid black;
+    background-color: #CD5C5C;
+    
+}
+.delete-cart-item {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    border: none;
+}
+.delete-cart-item:hover {
+    border-radius: 1px solid black;
+    background-color: #EE82EE;
+}
+
+.div-order {
+    
+}
+
+
+#btn-order {
+    border: 1px solid black;
+    background: #D5D6EA;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+#btn-order:hover{
+    
+    background: #77BFC7;
+}
+
+
+
+#order-inform {
+    border: 2px solid black;
+    width: 180px;
+    
+}
+.form-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#send-order-btn{
+    border: 1px solid black;
+    background: #DCDCDC;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+#send-order-btn:hover {
+    background: #36454F;
+    color: white;
+}

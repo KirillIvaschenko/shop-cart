@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="items-with-sneakers">
+    <h2>Modern Shopping Cart</h2>
+    <div class="sneakers">
+      <div class="nike-air item-box">
+        <div class="name-of-sneakers"><h3>Nike Air</h3></div>
+        <h2>$100</h2>
+        <button class="add-btn-cart nike">ADD TO CART</button>
+      </div>
+      <div class="adidas-superstar item-box">
+        <div class="name-of-sneakers"><h3>Adidas Superstar</h3></div>
+        <h2>$120</h2>
+        <button class="add-btn-cart adidas">ADD TO CART</button>
+      </div>
+      <div class="puma-st-runner  item-box">
+        <div class="name-of-sneakers"><h3>Puma St Runner</h3></div>
+        <h2>$130</h2>
+        <button class="add-btn-cart puma">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="d-f">
+    <div class="total-div">
+      <h1>Total:</h1>
+      <h2 id="total"></h2>
+    </div>
+    <button id="btn-clear" >CLEAR</button>
+  </div>
+  <div class="cart">
+    <h2 class="title-cart">Cart</h2>
+    <ul id="list-with-orders"></ul>
+    
+    
+  </div>
+  
+  <div>
+    <div><button id="btn-order">MAKE AN ORDER</button></div>
+    <div id="order-inform" hidden>
+      <form action='' method="get" class="form-order">
+        <p><b>First Name</b></p>
+        <input type="text">
+        <p><b>Last Name</b></p>
+        <input type="text">
+        <p><b>Phone</b></p>
+        <input type="text">
+        <p><b>E-mail</b></p>
+        <input type="text"> <br>
+
+        <button id="send-order-btn">SEND</button>
+    </form>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
